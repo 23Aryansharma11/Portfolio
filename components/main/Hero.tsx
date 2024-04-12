@@ -2,7 +2,7 @@ import HeroContent from "../sub/HeroContent";
 
 export default function Page(){
     return (
-        <div className=" relative flex flex-col h-full w-full ">
+        <div className=" justify-center items-center relative flex flex-col h-full w-full overflow-hidden">
             
             <video 
             autoPlay

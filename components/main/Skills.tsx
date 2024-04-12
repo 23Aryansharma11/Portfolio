@@ -18,16 +18,11 @@ export default function Page(){
                     </div>
             </a>
             </div>
-            <div className=" flex flex-row justify-around flex-wrap mt-4 gap-5 items-center ">
+            {/* <div className=" flex flex-row justify-around flex-wrap mt-4 gap-5 items-center ">
                 {Skill_data.map((image, index)=>(
                     <SkillDataProvider src={image.Image } key={index} width={image.width} height={image.height} index={index}/>
                 ))}
-            </div>
-            <div className=" flex flex-row justify-around flex-wrap mt-4 gap-5 items-center ">
-                {Frontend_skill.map((image, index)=>(
-                    <SkillDataProvider src={image.Image } key={index} width={image.width} height={image.height} index={index}/>
-                ))}
-            </div>
+            </div> */}
             <div className=" flex flex-row justify-around flex-wrap mt-4 gap-5 items-center ">
                 {Backend_skill.map((image, index)=>(
                     <SkillDataProvider src={image.Image } key={index} width={image.width} height={image.height} index={index}/>
@@ -39,10 +34,17 @@ export default function Page(){
                 ))}
             </div>
             <div className=" flex flex-row justify-around flex-wrap mt-4 gap-5 items-center ">
-                {Full_stack.map((image, index)=>(
+                {Frontend_skill.map((image, index)=>(
                     <SkillDataProvider src={image.Image } key={index} width={image.width} height={image.height} index={index}/>
                 ))}
             </div>
+            
+            
+            {/* <div className=" flex flex-row justify-around flex-wrap mt-4 gap-5 items-center ">
+                {Full_stack.map((image, index)=>(
+                    <SkillDataProvider src={image.Image } key={index} width={image.width} height={image.height} index={index}/>
+                ))}
+            </div> */}
             
                 <div className="w-full h-full absolute">
                     

@@ -29,8 +29,8 @@ export function StarBackground(props: any){
 
 const StarsCanvas: any = ()=>{
     return(
-        <div className=' w-full h-auto fixed inset-0 z-[20]'>
-        <Canvas camera={{position: [0, 0, 1]}}>
+        <div className=' w-[100%] h-auto fixed inset-0 z-[20] overflow-hidden'>
+        <Canvas camera={{position: [0, 0, 1]}} className='overflow-hidden'>
             <Suspense fallback= {null}>
                 <StarBackground/>
             </Suspense>

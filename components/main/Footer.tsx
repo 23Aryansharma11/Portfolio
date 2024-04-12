@@ -56,7 +56,8 @@ const Footer = () => {
         </div>
       </a>
       <h1 className='text-2xl font-semibold mb-5'>Write a message</h1>
-      <form onSubmit={handleSubmit} className=' z-20'>
+      <div className=' w-11/12'>
+      <form onSubmit={handleSubmit} className=' z-20 flex flex-wrap justify-center items-center'>
         Hey, I am 
         <input 
         required
@@ -73,7 +74,7 @@ const Footer = () => {
         value = {company}
         id = 'company'
         placeholder='Your Organisation'
-        className='mx-2 Input-box min-w-44 w-44  text-center h-auto bg-transparent px-[15px] py-[4px] z-20 border border-[#7042f88b] opacity-[0.6] focus:outline-none'
+        className='mx-2 Input-box mt-4 min-w-44 w-44  text-center h-auto bg-transparent px-[15px] py-[4px] z-20 border border-[#7042f88b] opacity-[0.6] focus:outline-none'
         onChange={(e)=> setCompany(e.target.value)}
         />
         <br />
@@ -101,6 +102,7 @@ const Footer = () => {
         </button>
         </div>
         </form>
+      </div>
     </div>
   );
 };

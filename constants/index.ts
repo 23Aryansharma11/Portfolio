@@ -36,12 +36,6 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
-    {
       skill_name: "Type Script",
       Image: "/ts.png",
       width: 80,
@@ -50,12 +44,6 @@ export const Skill_data = [
     {
       skill_name: "Next js 13",
       Image: "/next.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Framer Motion",
-      Image: "/framer.png",
       width: 80,
       height: 80,
     },
@@ -77,7 +65,7 @@ export const Skill_data = [
   export const Socials = [
     {
       name: "X",
-      src: "/XWhite.svg",
+      src: "/twitter1.svg",
       link: "https://twitter.com/23aryansharma11"
     },
     {
@@ -138,12 +126,6 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
-    {
       skill_name: "Type Script",
       Image: "/ts.png",
       width: 80,
@@ -192,12 +174,7 @@ export const Skill_data = [
   ];
   
   export const Full_stack = [
-    {
-      skill_name: "Figma",
-      Image: "/figma.png",
-      width: 50,
-      height: 50,
-    },
+    
   
   ];
   
