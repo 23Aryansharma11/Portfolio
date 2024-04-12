@@ -11,7 +11,7 @@ export default function Page(){
             <SkillText/>
 
             <div className=" flex justify-center items-center z-[30] cursor-pointer">
-            <a href="/myResume.pdf" download={true}>
+            <a href="/AryansharmaResume.pdf" download={true}>
                     <div className='Welcome-box px-[15px] py-[4px] z-20 border border-[#7042f88b] opacity-[0.6] flex justify-center items-center'>
                                 <h1 className='Welcome-text text-[20px]'>Download Resume</h1>
                                 <IoIosCodeDownload className=" text-purple-500 text-[40px]"/>
