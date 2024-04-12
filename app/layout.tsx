@@ -7,11 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Aryan Sharma",
-  icons: {
-    icon: "/myAvatar.svg"
+  icons: { 
+    icon: "/myAvatar.svg",
   },
   description: "Portfolio website",
-  
 };
 export default function RootLayout({
   children,
