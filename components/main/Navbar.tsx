@@ -31,7 +31,7 @@ export default function Navbar(){
           </div>
         </div>
       </div>
-    </div>
+    </div >
 
     <div className=" flex lg:hidden w-full h-[68px] fixed shadow-lg shadow-[#2A0E61]/60 bg-[#03001417] backdrop-blur-md z-[100] justify-between items-center ">
     <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
