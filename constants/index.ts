@@ -77,19 +77,18 @@ export const Skill_data = [
   export const Socials = [
     {
       name: "X",
-      src: "/twitter1.svg",
+      src: "/XWhite.svg",
+      link: "https://twitter.com/23aryansharma11"
     },
     {
       name: "Github",
       src: "/githubblue.svg",
-    },
-    {
-      name: "Instagram",
-      src: "/insta.svg",
+      link: "https://github.com/23Aryansharma11"
     },
     {
       name: "Linkedin",
       src: "/linkedin.svg",
+      link: "https://www.linkedin.com/in/aryan-sharma-378971270/"
     },
   ];
   
@@ -232,4 +231,19 @@ export const Skill_data = [
   ];
   
   
-  
+export const projects = [
+  {
+    src: "/lockify.png",
+    title: "Lockify",
+    Description: "Random password generator.",
+    link: "https://warm-cucurucho-634599.netlify.app/",
+    githubLink: "https://github.com/23Aryansharma11/Lockify"
+  },
+  {
+    src: "/skywise.png",
+    title: "Skywise",
+    Description: "Weather app",
+    link: "https://sky-wise.netlify.app/",
+    githubLink: "https://github.com/23Aryansharma11/SKYWISE"
+  },
+]

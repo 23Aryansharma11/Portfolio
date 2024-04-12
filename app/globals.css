@@ -77,3 +77,20 @@
 html {
   scroll-behavior: smooth;
 }
+/* Prevent white background and set text color on input autofill */
+input:-webkit-autofill {
+  transition: background-color 50000s ease-in-out 0s;
+  -webkit-text-fill-color: white !important;
+}
+
+/* Prevent white background and set text color on select autofill */
+select:-webkit-autofill {
+  transition: background-color 50000s ease-in-out 0s;
+  -webkit-text-fill-color: white !important;
+}
+
+/* Prevent white background and set text color on textarea autofill */
+textarea:-webkit-autofill {
+  transition: background-color 50000s ease-in-out 0s;
+  -webkit-text-fill-color: white !important;
+}
