@@ -97,7 +97,7 @@ const Footer = () => {
         />.
         <br />
         <div className=' flex justify-center items-center'>
-        <button type='submit' className=' flex justify-center items-center px-4 mt-4 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] gap-2'>
+        <button type='submit' className='z-[20] flex justify-center items-center px-4 mt-4 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] gap-2'>
           {msg}<HiMiniPaperAirplane className=' text-purple-500'/>
         </button>
         </div>
