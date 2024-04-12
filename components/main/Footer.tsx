@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
         Reach me out on <input 
         required
-        type="text" 
+        type="email" 
         value = {email}
         id = 'email'
         placeholder='Your Email'
