@@ -210,6 +210,13 @@ export const Skill_data = [
   
 export const projects = [
   {
+    src: "/nexus-meet.jpeg",
+    title: "Nexus Meet",
+    Description: "Video Calling App",
+    link: "https://nexus-meet-kappa.vercel.app/",
+    githubLink: "https://github.com/23Aryansharma11/nexus-meet"
+  },
+  {
     src: "/lockify.png",
     title: "Lockify",
     Description: "Random password generator.",
