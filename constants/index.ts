@@ -210,6 +210,13 @@ export const Skill_data = [
   
 export const projects = [
   {
+    src: "/google-clone.png",
+    title: "Google Clone",
+    Description: "Video Calling App",
+    link: "https://google-clone-blush-five.vercel.app/",
+    githubLink: "https://github.com/23Aryansharma11/google-clone"
+  },
+  {
     src: "/nexus-meet.jpeg",
     title: "Nexus Meet",
     Description: "Video Calling App",

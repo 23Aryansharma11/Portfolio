@@ -74,7 +74,7 @@ const Footer = () => {
         value = {company}
         id = 'company'
         placeholder='Your Organisation'
-        className='mx-2 Input-box mt-4 min-w-44 w-44  text-center h-auto bg-transparent px-[15px] py-[4px] z-20 border border-[#7042f88b] opacity-[0.6] focus:outline-none'
+        className='mx-2 Input-box min-w-44 w-44  text-center h-auto bg-transparent px-[15px] py-[4px] z-20 border border-[#7042f88b] opacity-[0.6] focus:outline-none'
         onChange={(e)=> setCompany(e.target.value)}
         />
         <br />
