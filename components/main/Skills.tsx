@@ -4,7 +4,7 @@ import SkillText from '../sub/SkillText'
 import SkillDataProvider from '../sub/SkillDataProvider'
 export default function Page(){
     return (
-        <section className="flex flex-col items-center justify-center gap-3  relative overflow-hidden  z-[20]" id="skills "
+        <section className="flex flex-col items-center justify-center gap-3  relative overflow-hidden  z-[20]" id="skills"
         style={{transform: "scale(0.9)"}}
         >
             
